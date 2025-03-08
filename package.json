@@ -2,7 +2,6 @@
   "name": "homework-6",
   "version": "1.0.0",
   "description": "",
-  "homepages": "https://zxcmimis.github.io/homework-6/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
@@ -10,17 +9,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZxcMimis/homework-6.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ZxcMimis/homework-6/issues"
-  },
-  "homepage": "https://github.com/ZxcMimis/homework-6#readme",
+
+  "homepage": "https://zxcmimis.github.io/homework-6/",
   "devDependencies": {
     "parcel": "^2.13.3"
   },
