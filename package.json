@@ -1,22 +1,24 @@
 {
-  "name": "homework-6",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://zxcmimis.github.io",
+  "name": "parcel",
+  "version": "7.7.7",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel src/index.html --no-cache",
-    "build": "parcel build src/index.html --no-cache --public-url ./",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "waste",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.13.3"
-  },
+  "description": "",
   "dependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.2.0",
+    "parcel": "^2.13.3",
+    "pnotify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
   }
 }
